@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="disenio.css">
+<body>
+    <div>
+        <p id="tit-hotel">H O T E L &nbsp; &nbsp; T R A N S I L V A N I A</p>
+    <fieldset>
+        <img id="mi-img" src="" alt="">
+        <fieldset id="field-camas">
+            <legend id="mi-qcama">Selecciona cantidad de Camas</legend>
+            <select onchange="seleccionaCamas()" name="Elige Camas" id="sel-qcama">
+            <option value="cero" >-</option>
+            <option value="uno"  >1</option>
+            <option value="dos"  >2</option>
+            </select>
+            <button onclick="eligeCama()">Agrega número de Camas</button>
+        </fieldset>
+        <fieldset id="field-dias">
+            <legend id="mi-qdias">Selecciona cantidad de Dias de Estadía</legend>
+            <select onchange="seleccionaDias()" name="Elige Cant de días" id="sel-qdias">
+            <option value="cero"  >-</option>
+            <option value="uno"   >1</option>
+            <option value="tres"  >3</option>
+            <option value="siete" >7</option>
+            </select>
+            <button onclick="eligeDias()">Agrega Dias de Estadía</button>
+        </fieldset>
+        <fieldset id="field-diain">
+            <legend id="mi-diain">Selecciona día de Check In</legend>
+            <select onchange="seleccionaDiaIn()" name="Elige día de check In" id="sel-diain">
+            <option value="x"    >-</option>
+            <option value="lun" >Lunes</option>
+            <option value="mie" >Miércoles</option>
+            <option value="sab" >Sábado</option>
+            </select>
+            <button onclick="eligeDiaIn()">Agrega Dia de Check In</button>
+        </fieldset>
+        <fieldset id="field-pens">
+            <legend id="mi-pens">Selecciona comidas</legend>
+            <select onchange="seleccionaPension()" name="Producto Genérico" id="sel-pens">
+            <option value="x"    >-</option>
+            <option value="DES" >Desayuno</option>
+            <option value="MP"  >Med. Pensión</option>
+            <option value="PC"  >Pensión Comp.</option>
+            </select>
+            <button onclick="eligePension()">Agrega Comidas</button>
+            </fieldset>
+    </fieldset>
+    <fieldset id="field-bot">
+        <button id="mi-bot2" onclick="confirmaReserva()">Confirmar</button>
+        <button id="mi-bot3" onclick="borraTodo()">Borrar todo</button>
+    </fieldset>
+    <fieldset>
+        <legend id="mi-legR">Datos de Reserva</legend>
+        <p class="resrv" id="mi-parr1"></p>
+        <p class="resrv" id="mi-parr2"></p>
+        <p class="resrv" id="mi-parr3"></p>
+        <p class="resrv" id="mi-parr4"></p>
+        <ol id="mi-ol1"></ol>
+    </fieldset>
+    </div>
+<script src="hotel.js"></script>
+</body>
+
+</html>

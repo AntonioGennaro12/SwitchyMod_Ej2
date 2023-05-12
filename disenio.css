@@ -1,0 +1,104 @@
+body{
+    background-color: antiquewhite;
+}
+
+div {
+    margin-top: 1vh;
+    border: 2px solid rgb(69, 18, 18);
+    width: 57vw;
+    height: 100vh;
+    background-color: rgb(163, 54, 54);
+    margin-left: 2vw;
+}
+
+#tit-hotel {
+    text-align: center;
+    font-size: 26px;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mi-img {
+    max-width: 100%;
+    height: auto;
+}
+
+fieldset {
+    font-family: Arial, sans-serif;
+    color: beige;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    width: 45vw; 
+    font-size: medium;
+}
+
+#field-camas {
+    width: 42vw;
+    margin-left: 0vw;
+}
+#field-dias {
+    width: 42vw;
+    margin-left: 0vw;
+}
+
+#field-diain {
+    width: 42vw;
+    margin-left: 0vw;
+}
+
+#field-pens {
+    width: 42vw;
+    margin-left: 0vw;
+}
+
+#field-bot {
+    width: 45vw;
+}
+
+select {
+    height: 3vh;
+    width: 15vw;
+    margin-left: 1vw;
+    font-size: medium;
+}
+
+button {
+    width: 20vw;
+    height: 4vh;
+    margin-left: 5vw;
+    border-width: 3px;
+    border-color: rgb(49, 13, 13);
+    border-radius: 8%;
+    background-color: bisque;
+    color: darkolivegreen;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+#mi-bot2 {
+    width: 18vw;
+    height: 3vh;
+    margin-left: 1vw;
+    background-color: rgb(150, 222, 150);
+    font-size: larger;
+}
+#mi-bot3 {
+    width: 20vw;
+    height: 3vh;
+    margin-left: 3vw;
+    background-color: rgb(246, 105, 105);
+    font-size: larger;
+}
+
+option {
+    color: black;
+    background-color:rgb(186, 222, 226);
+}
+.resrv {
+    height: 0.5vh;
+    color:rgb(212, 255, 241);
+}
+#mi_ol1 {
+    display: none;
+}
